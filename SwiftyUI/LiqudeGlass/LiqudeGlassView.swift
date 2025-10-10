@@ -23,7 +23,7 @@ struct LiqudeGlassView: View {
             .scaledToFill()
             .ignoresSafeArea()
           ScrollView {
-            glassButtonContentView
+            glassBackgroundContentView
           }
         }
       }
@@ -34,7 +34,7 @@ struct LiqudeGlassView: View {
             .scaledToFill()
             .ignoresSafeArea()
           ScrollView {
-            glassBackgroundContentView
+            glassButtonContentView
           }
         }
       }
