@@ -31,7 +31,6 @@ struct GooeyView: View {
         )
       }
     }
-    .preferredColorScheme(.dark)
     .frame(maxWidth: .infinity, maxHeight: 640)
     .gesture(
       DragGesture(minimumDistance: 10, coordinateSpace: .local)
